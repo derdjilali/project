@@ -1,0 +1,147 @@
+table {
+    text-align: center;
+    color: #212742;
+}
+
+table thead tr th.title {
+    background-color: #F0821B;
+    color: #212742;
+    ;
+    font-weight: 600;
+}
+
+table thead tr.header th {
+    background-color: #212742;
+    color: white;
+}
+
+.partners h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.partners div {
+    display: flex;
+    justify-content: space-around;
+}
+
+/***************************
+
+preloader
+
+***************************/
+.mil-preloader-1 {
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.mil-preloader-1 .mil-preloader-content {
+    width: 100%;
+    position: relative;
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    margin-bottom: 30px;
+}
+
+.mil-preloader-1 .mil-preloader-content .mil-ticker {
+    white-space: nowrap;
+}
+
+.mil-preloader-1 .mil-preloader-content .mil-ticker span {
+    margin: 0 30px;
+}
+
+.mil-preloader-1 .mil-preloader-content .mil-ticker b {
+    font-weight: inherit;
+}
+
+.mil-preloader-1 .mil-preloader-load-track {
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.mil-preloader-1 .mil-preloader-load-track .mil-preloader-load {
+    width: 0;
+    height: 100%;
+    background-color: var(--secondary-color);
+}
+
+.mil-preloader-1.mill-light-preloader {
+    background-color: rgb(255, 255, 255);
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+}
+.tariningProgram .mil-image-frame{
+    position: relative;
+
+}
+.tariningProgram .mil-image-frame img{
+    height: 350px;
+}
+.tariningProgram .mil-portfolio-item.mil-appearance.mil-mb-30{
+    height: 350px;
+}
+.txt{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 100;
+
+}
+.txt h3,.txt h6{
+    color: white;
+}
+.bgcolor{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 37, 63, 0.6);
+    z-index: 10;
+}
+.training-info{
+    color: #212742;
+    font-size: 40px;
+    text-align: center;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
